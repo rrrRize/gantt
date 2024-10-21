@@ -1,9 +1,6 @@
 import React from 'react';
+import { TaskProps } from "./types"
 
-interface TaskProps {
-  id: number;
-  task: string;
-}
 
 const Task: React.FC<TaskProps> = ({ id, task }) => {
   return (

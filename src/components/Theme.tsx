@@ -1,15 +1,12 @@
 import React from 'react';
 import Task from './Task'; // Taskコンポーネントをインポート
+import { TaskProps } from "./types"
 
-interface Task {
-    id:number;
-    task:string;
-}
 interface ThemeProps {
     themeData:{
         index: number;
         theme: string;
-        taskList: Task[]; // Taskオブジェクトの配列
+        taskList: TaskProps[]; // Taskオブジェクトの配列
     };
     
 }
