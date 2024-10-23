@@ -2,6 +2,7 @@
 export interface TaskProps {
     id: number;
     task: string;
+    date: Date;
 }
 
 export interface ThemeData {

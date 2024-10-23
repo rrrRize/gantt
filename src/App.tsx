@@ -1,5 +1,4 @@
 import React from 'react';
-import Theme from './components/Theme'
 import ThemeList from "./components/ThemeList"
 
 
@@ -9,9 +8,9 @@ const App: React.FC = () => {
       index: 1,
       theme: "My Theme 1",
       taskList: [
-        { id: 1, task: "Install package" },
-        { id: 2, task: "Start project" },
-        { id: 3, task: "Write code" }
+        { id: 1, task: "Install package", date:new Date("2024/10/23") },
+        { id: 2, task: "Start project", date:new Date("2024/10/24") },
+        { id: 3, task: "Write code", date:new Date("2024/10/25") }
       ]
     }
   };
@@ -21,8 +20,8 @@ const App: React.FC = () => {
       index: 2,
       theme: "My Theme 2",
       taskList: [
-        { id: 4, task: "Write documentation" },
-        { id: 5, task: "Prepare release" }
+        { id: 4, task: "Write documentation", date:new Date("2024/10/26") },
+        { id: 5, task: "Prepare release", date:new Date("2024/10/27") }
       ]
     }
   };

@@ -1,15 +1,7 @@
 import React from 'react';
 import Task from './Task'; // Taskコンポーネントをインポート
-import { TaskProps } from "./types"
+import { ThemeProps } from "./types"
 
-interface ThemeProps {
-    themeData:{
-        index: number;
-        theme: string;
-        taskList: TaskProps[]; // Taskオブジェクトの配列
-    };
-    
-}
 
 const Theme: React.FC<ThemeProps> = ({ themeData }) => {
     return (
@@ -18,7 +10,7 @@ const Theme: React.FC<ThemeProps> = ({ themeData }) => {
             <h2>{themeData.theme}</h2>
             {
                 themeData.taskList.map(task => (
-                    <Task key={task.id} id={task.id} task={task.task} />
+                    <Task key={task.id} id={task.id} task={task.task} date={task.date}/>
                 ))
             }
         </div>

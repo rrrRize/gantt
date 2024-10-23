@@ -1,8 +1,7 @@
 import React from 'react';
 import Theme from "./Theme"
 
-import { TaskProps } from "./types"
-import { ThemeProps } from "./types"
+
 import { ThemeListProps } from "./types"
 
 
