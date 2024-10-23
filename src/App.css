@@ -21,10 +21,10 @@
 }
 
 .task {
-  /* display: inline-block; */
+  
   background-color: #61dafb;
   padding:10px;
   min-width:300px;
-  margin:0 auto 0;
+  
 }
 
