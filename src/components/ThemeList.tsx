@@ -10,7 +10,10 @@ const ThemeList: React.FC<ThemeListProps> = ({themeLists}) => {
         <div>
             {themeLists.map(theme => (
                 <Theme themeData={theme.themeData}/>
+                
             ))}
+
+
         </div>
     );
 };

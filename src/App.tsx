@@ -1,12 +1,12 @@
 import React from 'react';
 import ThemeList from "./components/ThemeList"
-
+import './App.css';
 
 const App: React.FC = () => {
   const theme1 = {
     themeData: {
       index: 1,
-      theme: "My Theme 1",
+      theme: "My Theme 1rtrtrtrtrtrtrtrtrtrtrtrt",
       taskList: [
         { id: 1, task: "Install package", date:new Date("2024/10/23") },
         { id: 2, task: "Start project", date:new Date("2024/10/24") },
